@@ -1,13 +1,13 @@
 [package]
-name = "pallet-template"
-version = "4.0.0-dev"
-description = "FRAME pallet template for defining custom runtime logic."
-authors = ["Substrate DevHub <https://github.com/substrate-developer-hub>"]
+name = "root-add-permission"
+version = "0.1.0"
+description = "let the root add account to control list of club members. Only root can add and remove an account from being member of the club"
+authors = ["Muhammad Zain <https://github.com/zayn-kahn>"]
 homepage = "https://substrate.io/"
 edition = "2021"
 license = "Unlicense"
 publish = false
-repository = "https://github.com/substrate-developer-hub/substrate-node-template/"
+repository = "https://github.com/zayn-kahn/custom-pallet"
 
 [package.metadata.docs.rs]
 targets = ["x86_64-unknown-linux-gnu"]
